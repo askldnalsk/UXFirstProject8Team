@@ -1,0 +1,137 @@
+.shipping-fee {
+  padding: 14px 0px 3px 0px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.shipping-fee-message {
+  font-size: 12px;
+}
+
+.shipping-fee-message-client {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.shipping-fee-message-rocketfree {
+  font-weight: bold;
+  font-style: normal;
+  background-color: #008919;
+  border-radius: 1px;
+  padding: 2px 6px 1px;
+  height: 18px;
+  color: #ffffff;
+}
+
+.shipping-fee-message-arrivetime {
+  margin-top: 4px;
+}
+
+.shipping-fee-message-arrivetime span {
+  font-size: 12px;
+  letter-spacing: -0.75px;
+  margin-left: 3px;
+}
+
+.shipping-fee-message-green {
+  color: #008919;
+  letter-spacing: -0.75px;
+}
+
+.shipping-fee-message-green em {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.75px;
+}
+
+.other-seller {
+  margin-bottom: 17px;
+  margin-top: 10px;
+}
+
+.other-seller a {
+  text-decoration: none;
+  color: #346aff;
+  letter-spacing: -0.75px;
+  font-size: 12px;
+  background-color: #fcfcfc;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+}
+
+.count-selected-menu {
+  position: relative;
+  height: 54px;
+  border: 1px solid #dddddd;
+  background-color: #fafafa;
+  margin-bottom: 17px;
+  cursor: pointer;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px 0 rgba(0, 00, 0, 0.1);
+}
+
+.count-selected-menu span {
+  letter-spacing: -0.75px;
+  font-size: 12px;
+}
+
+.count-selected-menu em {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.count-selected-menu-downlist {
+  top: 60px;
+  left: -1px;
+  height: 250px;
+  width: 490px;
+
+  border: 1px solid #dddddd;
+  border-top: 2px solid #dddddd;
+  padding: 0;
+  position: absolute;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: auto;
+  visibility: hidden;
+  z-index: 9999;
+  /* overflow: scroll; */
+  /* visibility: hidden; */
+}
+
+.count-selected-menu-downlist::-webkit-scrollbar {
+  background-color: #f0f0f0;
+  width: 16px;
+}
+
+.count-selected-menu-downlist::-webkit-scrollbar-thumb {
+  background-color: #dddddd;
+  height: 23px;
+}
+
+.count-selected-menu-downlist li {
+  font-size: 12px;
+  border-bottom: 1px solid #eeeeee;
+  padding: 8px;
+  line-height: 19px;
+}
+
+.ml-count {
+  font-size: 12px;
+}
+
+.ml-price {
+  color: #ae0100;
+}
+
+.selected-price {
+  font-size: 14px;
+}
+
+.arrive-time {
+  color: #008919;
+  line-height: 21px;
+}

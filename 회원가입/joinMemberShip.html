@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  
+  <link rel="stylesheet" href="joinMemberShip.css">
+  
+  <link rel="stylesheet" href="../메인/메인/메인/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media(max_width_575.98px).css">
+  <link rel="stylesheet" href="css/media(min_width_576px).css">
+  <link rel="stylesheet" href="css/media(max_width_767.98px).css">
+  <link rel="stylesheet" href="css/media(max_width_991.98px).css">
+  <link rel="stylesheet" href="css/media(min_width_992px).css">
+  <link rel="stylesheet" href="css/media(max_width_1199.98px).css">
+  <link rel="stylesheet" href="css/media(min_width_1200px).css">
+  <link rel="stylesheet" href="css/media(max_width_1399.98px).css">
+  <link rel="stylesheet" href="css/media(min_width_1400px).css">
+
+
+</head>
+
+<body>
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  <header>
+    <nav class="site-nav mt-3">
+      <div class="container">
+
+        <div class="site-navigation">
+          <div class="row">
+            <div class="col-6_1 col-lg-3_1">
+              <a href="#" title="메인페이지 바로가기">
+                <img src="../메인/제품페이지/img/로고.png" alt="상단로고">
+              </a>
+            </div>
+            <div class="col-lg-6 d-none d-lg-inline-block text-center nav-center-wrap">
+              <ul class="js-clone-nav  text-center site-menu p-0 m-0">
+                <li class="active"><a href="../../제품페이지/pages/all/all.html">ALL</a></li>
+                <li><a href="../../제품페이지/pages/best/best.html">BEST</a></li>
+                <li><a href="../../제품페이지/pages/coffee/coffee.html">COFFEE</a></li>
+                <li><a href="../../제품페이지/pages/camping/camping.html">CAMPING</a></li>
+                <li><a href="../../제품페이지/pages/gift/gift.html">GIFT</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3 text-lg-end">
+              <ul class="js-clone-nav d-none d-lg-inline-block text-end site-menu ">
+                <li class="cta-button">
+                  <a href="#" class="login">LOGIN</a>
+                </li>
+              </ul>
+              
+              <a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+                <span></span>
+              </a>
+            </div>
+            <div class="">
+              <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+                <li class="" title="hart list"><a href="#" ><i class="fa-regular fa-heart"></i></a></li>
+                <li class="" title="shopping basket"><a href="#"><i class="fa-solid fa-cart-shopping "></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <div class="header__logo">
+      <h1>ANGEL IN US</h1>
+    </div>
+    <div class="content">
+      <div class="contet__start">
+        <h2>회원가입</h2>
+        <hr>
+      </div>
+      <div class="important">
+        <p class="required ">
+          <img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수"/> 
+          필수입력사항
+        </p>
+  
+      </div>
+      
+      <div>
+        <h3>기본정보</h3>
+      </div>
+      <div class="content__box">
+        <div class="container">
+          <table border="1">
+          <colgroup>
+            <col style= "width:200px">
+            <col style= "width:auto">
+          </colgroup>
+          <form action="">
+            <tbody>
+              <tr>
+                <th scope="row">
+                  아이디<img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수" />
+                </th>
+                <td>
+                  <input type="text" name="member__id" id="member__id" class="inputTypeText"
+                  fw-filter="isFill&isFill&isMin[4]&isMax[16]&isIdentity"
+                  fw-label="아이디" fw-msg="" class="inputTypeText" placeholder="아이디" value="" type="text" maxlength="16" autofocus required />
+                  <span id="idMsg" class="error">대문자/공백/특수문자가 포함되었거나, 숫자로 시작 또는 숫자로만 이루어진 아이디는 사용할 수 없습니다.</span>
+                  (영문소문자/숫자, 4~16자)
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  비밀번호<img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수" />
+                </th>
+                <td>
+                  <input id="passwd" name="passwd" fw-filter="isFill&isMin[4]&isMax[16]" fw-label="비밀번호" fw-msg=""
+                        autocomplete="off" maxlength="16" 0="disabled" value="" type="password" required placeholder=" 비밀번호"/>  
+                  
+                        <span class="error2">조건에 맞춰 비밀번호를 작성해주세요.</span>
+                        "(영문 대소문자/숫자/특수문자 중 2 가지 이상 조합, 10자~16자)" 
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  비밀번호 확인<img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수" />
+                </th>
+                <td>
+                  <input id="user_passwd_confirm" name="user_passwd_confirm" fw-filter="isFill&isMatch[passwd]"
+                  fw-label="비밀번호 확인" fw-msg="비밀번호가 일치하지 않습니다." autocomplete="off" maxlength="16" 0="disabled"
+                  value="" type="password" required placeholder=" 비밀번호 확인" /> 
+                  <span id="pwConfirmMsg" class="error3">비밀번호가 일치하지 않습니다.</span> 
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  이름<img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수" />
+                </th>
+                <td>
+                  <input type="text" name="name" id="name" maxlength="8" class="inputTypeText" required>
+                </td>
+              </tr>
+              <tr class="">
+                <th scope="row">
+                  주소 
+                </th>
+                <td>
+                  <div class="address_alpa">
+                    <input type="text" id="sample6_postcode" placeholder="우편번호" class="address_num">
+                    <input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기" class="address_search"><br>
+                    <input type="text" id="sample6_address" placeholder="주소" class="address"><br>
+                    <input type="text" id="sample6_detailAddress" placeholder="상세주소" class="address_plus">
+                    <input type="text" id="sample6_extraAddress" placeholder="참고항목" class="adress_dong">  
+                  </div>              
+                </td>
+              </tr>
+              <tr class="">
+                <th scope="row">일반전화 
+                </th>
+                <td>
+                  <select id="phone1" name="phone[]" fw-filter="isNumber&isNumber" fw-label="일반전화" fw-alone="N"
+                          fw-msg="">
+                              <option value="02">02</option>
+                              <option value="031">031</option>
+                              <option value="032">032</option>
+                              <option value="033">033</option>
+                              <option value="041">041</option>
+                              <option value="042">042</option>
+                              <option value="043">043</option>
+                              <option value="044">044</option>
+                              <option value="051">051</option>
+                              <option value="052">052</option>
+                              <option value="053">053</option>
+                              <option value="054">054</option>
+                              <option value="055">055</option>
+                              <option value="061">061</option>
+                              <option value="062">062</option>
+                              <option value="063">063</option>
+                              <option value="064">064</option>
+                              <option value="0502">0502</option>
+                              <option value="0503">0503</option>
+                              <option value="0504">0504</option>
+                              <option value="0505">0505</option>
+                              <option value="0506">0506</option>
+                              <option value="0507">0507</option>
+                              <option value="070">070</option>
+                              <option value="010">010</option>
+                              <option value="011">011</option>
+                              <option value="016">016</option>
+                              <option value="017">017</option>
+                              <option value="018">018</option>
+                              <option value="019">019</option>
+                              <option value="0508">0508</option>
+                          </select>
+                          -
+                          <input id="phone2" name="phone[]" maxlength="4" fw-filter="isNumber&isNumber"
+                          fw-label="일반전화" fw-alone="N" fw-msg="" value="" type="text" />
+                          -
+                          <input id="phone3" name="phone[]"
+                          maxlength="4" fw-filter="isNumber&isNumber" fw-label="일반전화" fw-alone="N" fw-msg="" value=""
+                          type="text" />
+                </td>
+              </tr>
+              <tr class="">
+                <th scope="row">
+                  휴대전화 <img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" class=""
+                  alt="필수" />
+                </th>
+                <td>
+                  <select id="mobile1" name="mobile[]" fw-filter="isNumber&isFill" fw-label="휴대전화" fw-alone="N" fw-msg="">
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                    <option value="017">017</option>
+                    <option value="018">018</option>
+                    <option value="019">019</option>
+                  </select>
+                  -
+                <input id="mobile2" name="mobile[]" maxlength="4" fw-filter="isNumber&isFill"
+                fw-label="휴대전화" fw-alone="N" fw-msg="" value="" type="text" required/>
+                -
+                <input id="mobile3"
+                name="mobile[]" maxlength="4" fw-filter="isNumber&isFill" fw-label="휴대전화" fw-alone="N" fw-msg=""
+                value="" type="text" required/>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">이메일 <img src="//img.echosting.cafe24.com/skin/base/common/ico_required.gif" alt="필수" />
+                </th>
+                <td>
+                  <input id="email1" name="email1" fw-filter="isFill&isEmail" fw-label="이메일" fw-alone="N" fw-msg=""
+                          value="" type="email" required placeholder="이메일"/> 
+                          <span id="emailMsg" class="error4">이메일 형식에 맞게 입력해 주세요.</span>
+                          
+                          
+                </td>
+              </tr>
+            </tbody>  
+            </table>
+            <div class="submit">
+              <button type="button" value="회원가입" name="submit_btn" class="submit_btn" >
+                회원가입 
+              </button>
+            </div>
+        </form>
+
+        </div>
+      </div>    
+    </div>
+  </div>
+
+  <!-- Footer -->
+
+  <div class="site-footer">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>엔제리너스 소개</h3>
+            <p>기분 좋은 경험!! 우리는 끊임없이 고객의 기분좋은 경험을 만들어 가는 브랜드가 되고자 합니다.</p>
+          </div> <!-- /.widget -->
+          <div class="widget">
+            <h3>SNS</h3>
+            <ul class="list-unstyled social">
+              <li><a href="https://instagram.com/angelinus_coffee"><span class="icon-instagram"></span></a></li>
+              <li><a href="https://www.facebook.com/angelinustime"><span class="icon-facebook"></span></a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+        <div class="col-lg-2 ml-auto">
+          <div class="widget">
+            <h3>Links</h3>
+            <ul class="list-unstyled float-left links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+        <div class="col-lg-2">
+          <div class="widget">
+            <h3>사업자정보</h3>
+            <ul class="list-unstyled float-left links">
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+
+        <div class="col-lg-3">
+          <div class="widget">
+            <h3>연락처</h3>
+            <address>주소 : <br>서울특별시 금천구 벚꽃로 104 (독산역 롯데캐슬 금천롯데타워) 롯데지알에스(주) 7층 커피사업팀 (우 : 08606)
+            </address>
+            <ul class="list-unstyled links mb-4">
+              <li><a href="tel://02-709-1114">
+                연락처 : <br>+(82)02-709-1114</a></li>
+              <li><a href="mailto:owan10@naver.com">이메일 주소 : <br>owan10@naver.com</a></li>
+            </ul>
+          </div> <!-- /.widget -->
+        </div> <!-- /.col-lg-3 -->
+
+      </div> <!-- /.row -->
+
+      <div class="row mt-5">
+        <div class="col-12 text-center">Preloader
+          <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> <!-- License information: https://untree.co/license/ -->
+          </p>
+        </div>
+      </div> <!-- /컨테이너 -->
+    </div> <!-- /사이트 바닥글-->
+
+    <!-- 로그인 -->
+
+    <section class="modal-section loginDN ">
+      <h2 class = "modal-title "><strong>LOGIN</strong></h2>
+      <section class="modal-login">
+        <form class="login-input">
+          <fieldset>
+            <label for="login-id" class="hidden">아이디 입력창</label>
+            <input type="text" name="id" id="login-id" placeholder="아이디">
+            <!-- <strong class="inp-error">아이디를 입력해주세요.</strong> -->
+          </fieldset>
+          <fieldset>
+            <label for="login-pw" class="hidden">비밀번호 입력창</label>
+            <input type="password" name="pw" id="login-pw" placeholder="비밀번호">
+            <!-- <strong class="inp-error">아이디 혹은 비밀번호와 일치하지 않습니다.</strong> -->
+          </fieldset>
+          <input type="checkbox" id="login-state" value="state">
+          <label for="login-state" class="loginState"> </label>로그인 상태유지</label>
+          <input type="submit" class="submit-button" value="로그인">
+        </form>
+        <section class="login-sns">
+          <h2 class="hidden">sns로그인</h2>
+          <p class="login-or">또는</p>
+          <a class="sns-google" href="">구글 계정으로 로그인</a>
+          <a class="sns-facebook" href="">페이스북 계정으로 로그인</a>
+          <a class="sns-naver" href="">네이버 계정으로 로그인</a>
+          <a class="sns-kakao" href="">카카오톡 계정으로 로그인</a>
+        </section>
+        <button class="modal-close" id="close"></button>
+        <section class="login-find">
+          <a class="find-id" href="">회원가입</a>
+          <a class="find-pw" href="">아이디/비밀번호 찾기</a>
+        </section>
+      </section>
+    </section>
+
+    
+    <script src="https://kit.fontawesome.com/eb18fbeea9.js" crossorigin="anonymous"></script>
+   
+
+
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script>
+    function sample6_execDaumPostcode() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                var addr = ''; // 주소 변수
+                var extraAddr = ''; // 참고항목 변수
+
+                //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+                if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+                    addr = data.roadAddress;
+                } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                    addr = data.jibunAddress;
+                }
+
+                // 사용자가 선택한 주소가 도로명 타입일때 참고항목을 조합한다.
+                if(data.userSelectedType === 'R'){
+                    // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                    // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+                    if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                        extraAddr += data.bname;
+                    }
+                    // 건물명이 있고, 공동주택일 경우 추가한다.
+                    if(data.buildingName !== '' && data.apartment === 'Y'){
+                        extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                    }
+                    // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                    if(extraAddr !== ''){
+                        extraAddr = ' (' + extraAddr + ')';
+                    }
+                    // 조합된 참고항목을 해당 필드에 넣는다.
+                    document.getElementById("sample6_extraAddress").value = extraAddr;
+                
+                } else {
+                    document.getElementById("sample6_extraAddress").value = '';
+                }
+
+                // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                document.getElementById('sample6_postcode').value = data.zonecode;
+                document.getElementById("sample6_address").value = addr;
+                // 커서를 상세주소 필드로 이동한다.
+                document.getElementById("sample6_detailAddress").focus();
+            }
+        }).open();
+    }
+    
+</script>
+<script src="joinMemberShip.js"></script>
+</body>
+</html>

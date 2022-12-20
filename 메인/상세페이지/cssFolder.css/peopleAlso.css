@@ -1,0 +1,156 @@
+.people-also-bought {
+  padding-top: 30px;
+}
+
+.people-also-bought h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.other-product {
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* .other-product::-webkit-scrollbar {
+  background-color: #f0f0f0;
+  width: 16px;
+}
+
+.other-product::-webkit-scrollbar-thumb {
+  background-color: #dddddd;
+  height: 23px; }*/
+
+.other-product a {
+  width: 144px;
+  height: 245px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.other-product li {
+  min-width: 144px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+.other-product li:hover p {
+  color: #4385f4;
+}
+
+.other-product1 img {
+  width: 144px;
+  height: 144px;
+  transition: 0.2s;
+}
+
+.other-product li img:hover {
+  transform: scale(1.1);
+}
+
+.horizon-scroll {
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+  width: 9999px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.other-product p {
+  font-size: 12px;
+  padding-top: 12px;
+  color: black;
+}
+
+.other-product-price {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ae0100;
+}
+
+.other-product-price em {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.other-product-per-price {
+  font-size: 12px;
+  color: #ae0100;
+}
+
+.right-arrow {
+  width: 35px;
+  height: 50px;
+  border: 1px solid #eeeeee;
+  position: absolute;
+  background: #dddddd;
+  opacity: 0.8;
+  right: 0px;
+  top: 40px;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.before-arrow {
+  width: 23px;
+  height: 23px;
+  opacity: 0.4;
+  position: absolute;
+  visibility: hidden;
+}
+
+.after-arrow {
+  visibility: hidden;
+  width: 23px;
+  height: 23px;
+}
+
+/* --left arrow */
+
+.left-arrow {
+  width: 35px;
+  height: 50px;
+  border: 1px solid #eeeeee;
+  position: absolute;
+  background: #dddddd;
+  opacity: 0.8;
+  left: 0px;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.left-before-arrow {
+  width: 23px;
+  height: 23px;
+  opacity: 0.4;
+  position: absolute;
+  visibility: hidden;
+}
+
+.left-after-arrow {
+  width: 23px;
+  height: 23px;
+  visibility: hidden;
+}
+
+/* .horizon-scroll:hover .left-arrow {
+  visibility: visible;
+} */
+
+.left-arrow:hover .left-before-arrow {
+  visibility: hidden;
+}
+
+.left-arrow:hover .left-after-arrow {
+  visibility: visible;
+  opacity: 1;
+}

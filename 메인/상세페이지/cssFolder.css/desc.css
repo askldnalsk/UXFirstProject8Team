@@ -1,0 +1,9 @@
+.description {
+  font-size: 12px;
+  list-style: disc;
+  padding: 17px;
+}
+
+.description li {
+  padding-bottom: 3px;
+}

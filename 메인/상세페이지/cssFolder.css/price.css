@@ -1,0 +1,88 @@
+.price {
+  padding: 17px 0px 17px 0px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.origin-price {
+  position: relative;
+}
+
+.small-info {
+  display: inline-block;
+  position: absolute;
+}
+
+.small-small-info {
+  font-size: 9px;
+  color: #acacac;
+  display: flex;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #acacac;
+  justify-content: center;
+  align-items: center;
+}
+
+.before-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+strong {
+  font-size: 20px;
+  padding-right: 7px;
+}
+
+.price-unit {
+  font-size: 18px;
+}
+
+.major-price {
+  color: #ae0100;
+}
+
+.unit-price {
+  font-size: 12px;
+}
+
+.discount-rate,
+.before-price {
+  font-size: 14px;
+  padding-right: 4px;
+}
+
+.cash-badge {
+  height: 20px;
+  width: 110px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 0 6px;
+  margin-top: 14px;
+}
+
+.cash-badge img {
+  max-height: 14px;
+  max-width: 14px;
+  height: auto;
+  width: auto;
+  margin-top: 2px;
+}
+
+.cash-badge span {
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 2px;
+  color: #333;
+  vertical-align: top;
+  margin-top: 2.4px;
+  display: inline-block;
+}
+
+.roket-wow {
+  max-height: 55px;
+  max-width: 55px;
+  width: auto;
+  height: auto;
+}

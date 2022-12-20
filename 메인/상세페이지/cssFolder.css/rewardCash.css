@@ -1,0 +1,66 @@
+.reward-cash {
+  padding: 17px 0px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.cash-summary {
+  height: 20px;
+  padding-bottom: 17px;
+  display: flex;
+  /* position: relative; */
+  align-items: center;
+}
+
+.cash-summary img {
+  width: 20px;
+  height: 20px;
+}
+
+.cash-summary span {
+  font-size: 14px;
+}
+
+.캐시적립혜택 {
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+  line-height: 18px;
+  padding-left: 6px;
+}
+
+.second {
+  margin-left: 4px;
+}
+
+.stick {
+  color: #ccc;
+  padding: 0 5px;
+}
+
+.cupay {
+  height: 67px;
+  border: 1px solid #dddddd;
+  background-color: #fafafa;
+  padding: 15px;
+}
+
+.cupay p {
+  padding-bottom: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+  color: #555;
+  letter-spacing: -0.6px;
+}
+
+.cupay button {
+  border: solid 1px #346aff;
+  padding: 0 12px;
+  height: 36px;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: center;
+  color: #346aff;
+  cursor: pointer;
+}

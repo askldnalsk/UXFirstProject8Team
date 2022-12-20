@@ -1,0 +1,76 @@
+.franch-cafe {
+  text-decoration: none;
+  color: #346aff;
+  font-size: 12px;
+}
+
+.order-title {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-title {
+  font-size: 18px;
+  width: 380px;
+  display: block;
+}
+
+.order-top-blank {
+  width: 100%;
+  height: 15px;
+
+  margin-bottom: 10px;
+}
+
+.review-count {
+  color: #346aff;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.review-star {
+  font-size: 12px;
+}
+
+.button-heart {
+  border-radius: 50%;
+
+  border: 1px solid #dddddd;
+  font-size: 23px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #787878;
+  font-weight: 200px;
+}
+
+.button-share {
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
+  font-size: 23px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #787878;
+  font-weight: 200px;
+}
+
+.heart-share {
+  display: flex;
+}
+
+.review-star img {
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}

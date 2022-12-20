@@ -1,0 +1,78 @@
+.main-topbar {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  height: 32px;
+
+  width: 980px;
+  margin: auto;
+}
+
+.main-topbar li {
+  font-size: 11px;
+  padding-right: 15px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.left-top ul {
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.right-top ul {
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+  height: 32px;
+}
+
+.right-top li {
+  display: flex;
+  align-items: center;
+}
+
+.right-top img {
+  max-width: 36px;
+  max-height: 36px;
+  height: auto;
+  width: auto;
+  padding-right: 3px;
+}
+
+.disappear {
+  font-weight: bold;
+}
+
+/* .bi-ad {
+  position: relative;
+}
+
+.bi-ad img {
+  max-height: 440px;
+  max-width: 320px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  top: 4px;
+  right: 75px;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+} */
+#topbar-down-icon {
+  position: relative;
+}
+
+#topbar-down-icon::after {
+  background: url("/image/bi-ad.png") no-repeat;
+  max-width: 440px;
+  max-height: 320px;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  position: absolute;
+}

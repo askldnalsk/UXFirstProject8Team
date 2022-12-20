@@ -1,0 +1,27 @@
+.breadcrumb {
+  width: 980;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 0px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.breadcrumb li {
+  font-size: 11px;
+  height: 27.78px;
+  margin-right: 10px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #212121;
+  margin-right: 6px;
+}
+
+.breadcrumb a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #4385f4;
+}
